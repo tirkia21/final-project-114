@@ -1,0 +1,541 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+.bg-div {
+    background-image: url(../image/venaxi.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    position: relative;
+} 
+.toggle-button {
+    display: none;
+}
+.contact-bg {
+    background-image: url(../image/Vineyard.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.blog-div {
+    background-image: url(../image/venaxi\ 2.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.headre-wraper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+.navigation {
+    max-width: 1170px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.header-div {
+    position: absolute;
+    max-width: 700px;
+    width: 100%;
+    top: 300px;
+    left: 300px;
+}
+.header-text {
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster';
+    /* border-bottom: solid 1px white */
+}
+.text {
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+/* dafiqsvaze kiTxe shexvedraze */
+.nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.nav-a {
+    color: blue;
+    font-size: 25px;
+    font-family: 'Anton';
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.nav-a:hover {
+    font-size: 30px;
+    color: red;
+}
+.home-wraper {
+    display: none;
+}
+
+/* ახლი სექცია მისიები */
+body {
+    background-color: #ffe6ff;
+}
+.div-mission {
+    margin-top: 100px;
+    max-width: 1120px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.div-mission1:nth-child(1) {
+    width: 200px;
+    height: 50px;
+    background-color: #325DFF;
+    color: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 40px;
+    font-family: 'Lobster';
+    text-align: center;
+}
+.div-mission1:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-mission {
+    max-width: 400px;
+    width: 100%;
+}
+.text1 {
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Quattrocento';
+}
+.text1:nth-child(1) {
+    margin-top: 30px;
+}
+.text1:nth-child(2) {
+    margin-top: 50px;
+}
+/* footeris nawili */
+#mission-footer {
+    background-color: black;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.footer-div {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   max-width: 1100px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.footer-div1 {
+   max-width: 300px;
+   width: 100%;
+}
+.div-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Quattrocento';
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+.div-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 25px;
+}
+.icon:nth-child(1){
+    margin-right: 20px;
+    background-color: #3B5998;       
+}
+.icon:nth-child(2) {
+    margin-right: 20px;
+    background-color:  #55ACEE;
+}
+.icon:nth-child(3) {
+    background-color: #DC4E41; 
+}
+.title2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Quattrocento';
+}
+.footer-li {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Quattrocento';
+ }
+.title {
+    color: white;
+    font-family: 'Quattrocento';
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 18px;
+}
+.div-text2 {
+    font-size: 18px;
+    font-family: 'Quattrocento';
+    color: white;
+    margin-left: 10px;
+}
+/* contact section mission */
+.contact-wraper1 {
+    max-width: 1100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.text2:nth-child(1) {
+    font-size: 30px;
+    font-family: 'Lobster';
+    margin-bottom: 10px;
+}
+.text2:nth-child(2) {
+    font-size: 18px;
+    font-family: 'Lobster';
+}
+.form-wraper {
+    max-width: 500px;
+    width: 100%;
+}
+.contact-wraper {
+    padding: 30px;
+    max-width: 1100px;
+    background-color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.input:focus {
+    outline: none;
+}
+.input1:focus {
+    outline: none;
+}
+.input-wraper {
+    margin-bottom: 20px;
+}
+.input-wraper:nth-child(2){
+    margin-bottom: 20px;
+}
+.input1:nth-child(1) {
+    width: 236px;
+}
+.input1:nth-child(2) {
+    width: 236px;
+}
+.input:nth-child(1) {
+    width: 200px;
+}
+input:nth-child(2){
+    width: 200px;
+}
+.textarea {
+    max-width: 477px;
+    width: 100%;
+    height: 280px;
+    resize: none;
+    outline: none;
+}
+.botton {
+    margin-top: 20px;
+    max-width: 477px;
+    width: 100%;
+    height: 60px;
+    background-color: #5863F8;
+    color: #FFFFFF;
+}
+.div-map {
+    margin-left: 40px;
+}
+.input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster';
+}
+.input::-moz-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster';
+}
+.input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster';
+}
+.input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster';
+}
+.input::placeholder {
+    font-size: 16px;
+    font-family: 'Lobster';
+}
+.input1::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.input1::-moz-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.input1:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.input1::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.input1::placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.textarea::-moz-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.textarea:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.textarea::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+.textarea::placeholder {
+    font-size: 16px;
+    font-family: 'Lobster'
+}
+/* blogis seqcia sectioa aris es */
+.bl-text {
+    width: 200px;
+    height: 50px;
+    background-color: #325DFF;
+    color: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 40px;
+    font-family: 'Lobster';
+    text-align: center;
+}
+.blog-wraper {
+    max-width: 1000px;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.blog-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.blog-headline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Anton';
+    text-align: left;
+}
+.text-headline {
+    font-size: 22px;
+    font-family: 'Lobster'
+}
+.text-headline:nth-child(1) {
+    margin-bottom: 15px;
+}
+.text-headline:nth-child(2) {
+    margin-bottom: 15px;
+}
+/* index.html */
+/* aq iwyba mTari gverdi  es seqcia ekuTvnis jiSebs ganxilvas */
+.wine-animation {
+    /* max-width: 1170px; */
+    /* width: 100%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.var-headline {
+    width: 200px;
+    height: 50px;
+    background-color: #325DFF;
+    color: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 40px;
+    font-family: 'Lobster';
+    text-align: center; 
+}
+/* jiSebis mokle axwera index.html */
+.section-varieties {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.box-wraper {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 40px 40px 40px 40px;
+    background-color: white;
+
+}
+.box-image {
+   width: 450px;
+}
+.image-box {
+    width: 100%;
+}
+.text-box {
+    max-width: 400px;
+    width: 100%;
+}
+.varieties-headline {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Lobster';
+    margin-bottom: 15px;
+
+}    
+.varieties-text {
+    font-size: 22px;
+    font-family: 'Quattrocento';
+    margin-left: 15px;
+}    
+/* indexsisi meore seqcia  jishebi*/
+.section-wraper1 {
+    margin-top: 40px;
+}
+.box-wraper1 {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: 310px;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 40px 40px 40px 40px;
+    background-color: white;
+}
+.varieties-buttom {
+    width: 80px;
+    height: 50px;
+    background-color: #325DFF;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    font-family: 'Anton';
+
+}
+.button-text {
+    color: white;
+}
+
